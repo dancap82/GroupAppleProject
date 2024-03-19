@@ -1,8 +1,81 @@
+
+
+/* Royce */
+ 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+  
+  .destination-list {
+    padding: 50px 0;
+  }
+  
+  .destination-list h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .destinations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .destination {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+  
+  .destination h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    text-align: center;
+  }
+  .destination h2, p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 10px;
+    color: black;
+    text-align: center;
+  }
+  
+
+  .image-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+
+
+
+  /* Royce*/
+
 
 .navbar {
     background-color: #434344;
@@ -73,5 +146,3 @@ footer {
     padding-left: 45px;
     padding-right: 45px;
 }
-
-
